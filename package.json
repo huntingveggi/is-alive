@@ -1,0 +1,56 @@
+{
+  "name": "is-alive-client",
+  "version": "0.0.0",
+  "main": "lib/is-alive-client.js",
+  "description": "Live system surveilence client for is-alive-server",
+  "homepage": "http://dennisahaus.github.io/is-alive-client",
+  "bugs": "https://github.com/dennisahaus/is-alive-client/issues",
+  "author": {
+    "name": "Dennis Ahaus",
+    "email": "dennis.ahaus@gmail.com",
+    "url": "dennisahaus.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dennisahaus/is-alive-client"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "is-alive-client",
+    "live",
+    "system",
+    "client",
+    "surveilence"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "is-alive-client": "cli.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "commander": "^2.3.0",
+    "express": "^4.8.3",
+    "fs-extra": "^0.11.0",
+    "passport": "^0.2.0",
+    "passport-http": "^0.2.2",
+    "request": "^2.40.0",
+    "serve-static": "^1.5.1",
+    "socket.io": "^1.0.6",
+    "string": "^1.9.1",
+    "sugar": "^1.4.1",
+    "underscore": "^1.6.0"
+  }
+}
